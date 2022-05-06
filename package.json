@@ -1,0 +1,29 @@
+{
+  "name": "telikea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heqian/telikea.git"
+  },
+  "author": "Qian He",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/heqian/telikea/issues"
+  },
+  "homepage": "https://github.com/heqian/telikea#readme",
+  "dependencies": {
+    "dotenv": "*",
+    "ikea-availability-checker": "^2.0.0-alpha.2",
+    "node-fetch": "*",
+    "node-schedule": "*"
+  },
+  "devDependencies": {
+    "standard": "*"
+  }
+}
